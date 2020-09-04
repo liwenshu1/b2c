@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="user-service" />
+        <module name="b2c-goods-page" />
+        <module name="b2c-api-gateways" />
+        <module name="b2c-memober-interface" />
+        <module name="b2c-registry" />
+        <module name="b2c-order" />
+        <module name="b2c-cart" />
+        <module name="b2c-common" />
+        <module name="b2c-auth-common" />
+        <module name="b2c-memober-service" />
+        <module name="b2c-upload" />
+        <module name="b2c-search" />
+        <module name="user-interface" />
+        <module name="b2c-item-interface" />
+        <module name="b2c-item-service" />
+        <module name="goods-page" />
+        <module name="b2c-api-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="b2c-api-gateway" target="1.8" />
+      <module name="b2c-auth-service" target="1.8" />
+      <module name="b2c-goods-page" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="b2c-api-gateway" options="-parameters" />
+      <module name="b2c-api-gateways" options="-parameters" />
+      <module name="b2c-auth" options="-parameters" />
+      <module name="b2c-auth-common" options="-parameters" />
+      <module name="b2c-auth-service" options="-parameters" />
+      <module name="b2c-cart" options="-parameters" />
+      <module name="b2c-common" options="-parameters" />
+      <module name="b2c-goods-page" options="-parameters" />
+      <module name="b2c-item" options="-parameters" />
+      <module name="b2c-item-interface" options="-parameters" />
+      <module name="b2c-item-service" options="-parameters" />
+      <module name="b2c-memober" options="-parameters" />
+      <module name="b2c-memober-interface" options="-parameters" />
+      <module name="b2c-memober-service" options="-parameters" />
+      <module name="b2c-order" options="-parameters" />
+      <module name="b2c-registry" options="-parameters" />
+      <module name="b2c-search" options="-parameters" />
+      <module name="b2c-upload" options="-parameters" />
+      <module name="b2c-user" options="-parameters" />
+      <module name="goods-page" options="-parameters" />
+      <module name="user-interface" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
